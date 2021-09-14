@@ -1,12 +1,11 @@
-import {fToKelvin, toFahrenheit} from '/Fahrenheit.js';
-import {cToKelvin, toCelsius} from '/Celsius.js';
+import {fToKelvin, toFahrenheit} from 'Fahrenheit.js';
+import {cToKelvin, toCelsius} from 'Celsius.js';
 
 document.getElementById("btn").addEventListener("click", function() {
     let chosen = document.getElementById("conversion").value;
     let num = document.getElementById("num").value;
     let result;
     let type;
-    alert(num)
     if (num == "") { // error checking
         document.getElementById("num").style.background = "#FFCCCC";
         document.getElementById("results").innerHTML = `<p>Please enter a number</p>`;
