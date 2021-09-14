@@ -6,6 +6,7 @@ document.getElementById("btn").addEventListener("click", function() {
     let num = document.getElementById("num").value;
     let result;
     let type;
+    alert(num)
     if (num == "") { // error checking
         document.getElementById("num").style.background = "#FFCCCC";
         document.getElementById("results").innerHTML = `<p>Please enter a number</p>`;
