@@ -1,10 +1,24 @@
 body {
     font-family: "Arial";
     text-align: center;
+    margin: 0;
+}
+
+#content {
+    background-color: #dbdbdb;
+    border-radius: 20px;
+    padding: 10px 0 50px 0;
+    width: 1000px;
+    margin: 50px auto 0 auto;
+    box-shadow: 2px 2px 5px #acacad;
+}
+
+#results {
+    padding-top: 20px;
 }
 
 p {
-    font-size: 16pt;
+    font-size: 20pt;
 }
 
 h2 {
@@ -21,10 +35,11 @@ input, select {
 
 #btn {
     border-radius: 10px;
-    padding: 5px 10px;
-    background-color: #ffffff;
-    border-color: #4d4d4f;
-    border-width: 2px;
+    padding: 8px 16px;
+    background-color: #4287f5;
+    outline: none;
+    border: none;
+    color: white;
     font-weight: bold;
 }
 

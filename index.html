@@ -9,20 +9,22 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>CS 602: Homework 1</h1>
-    <h2>Temperature Conversion</h2>
-    <form>
-        <label for="conversion">Choose a temperature conversion:</label>
-        <select name="conversion" id="conversion">
-            <option value="cel-to-kel">Celsius to Kelvin</option>
-            <option value="cel-to-fah">Celsius to Fahrenheit</option>
-            <option value="fah-to-kel">Fahrenheit to Kelvin</option>
-            <option value="fah-to-cel">Fahrenheit to Celsius</option>
-        </select>
-        <input type="number" placeholder="type a number..." id="num">
-        <button type="button" name="convert" id="btn"">CONVERT</button>
-    </form>
-    <div id="results"></div>
+    <div id="content">
+        <h1>CS 602: Homework 1</h1>
+        <h2>Temperature Conversion</h2>
+        <form>
+            <label for="conversion">Choose a temperature conversion:</label>
+            <select name="conversion" id="conversion">
+                <option value="cel-to-kel">Celsius to Kelvin</option>
+                <option value="cel-to-fah">Celsius to Fahrenheit</option>
+                <option value="fah-to-kel">Fahrenheit to Kelvin</option>
+                <option value="fah-to-cel">Fahrenheit to Celsius</option>
+            </select>
+            <input type="number" placeholder="type a number..." id="num">
+            <button type="button" name="convert" id="btn"">CONVERT</button>
+        </form>
+        <div id="results"></div>
+    </div>
     <script type="module" src="index.js"></script>
 </body>
 </html>

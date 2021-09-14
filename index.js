@@ -11,7 +11,7 @@ document.getElementById("btn").addEventListener("click", function() {
         document.getElementById("results").innerHTML = `<p>Please enter a number</p>`;
     } else {
         num = Number(num);
-        document.getElementById("num").style.background = "#FFFFFF00"; // resets number field back to white (transparent)
+        document.getElementById("num").style.background = "#FFFFFF"; // resets number field back to white
         if (chosen == "fah-to-cel") {
             result = toCelsius(num);
             type = "C";
