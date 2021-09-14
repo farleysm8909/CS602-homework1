@@ -1,5 +1,5 @@
-import {fToKelvin, toFahrenheit} from 'Fahrenheit.js';
-import {cToKelvin, toCelsius} from 'Celsius.js';
+import {fToKelvin, toFahrenheit} from '/fahrenheit.js';
+import {cToKelvin, toCelsius} from '/celsius.js';
 
 document.getElementById("btn").addEventListener("click", function() {
     let chosen = document.getElementById("conversion").value;
