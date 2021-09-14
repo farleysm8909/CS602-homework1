@@ -14,3 +14,21 @@ h2 {
 form {
     margin-top: 60px;
 }
+
+input, select {
+    padding: 5px;
+}
+
+#btn {
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border-color: #4d4d4f;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+#btn:hover {
+    background-color: #4d4d4f;
+    color: #ffffff;
+}
