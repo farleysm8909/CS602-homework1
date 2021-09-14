@@ -1,3 +1,16 @@
 body {
-    font: Arial;
+    font-family: "Arial";
+    text-align: center;
+}
+
+p {
+    font-size: 16pt;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 60px;
 }
